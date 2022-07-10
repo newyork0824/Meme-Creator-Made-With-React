@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background: rgb(57,91,237);
+background: linear-gradient(90deg, rgba(57,91,237,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+height: 60px;
+
+}
+
+.logo {
+  display:flex;
+  align-items:center;
+
+  
+}
+
+.troll-face {
+  margin-left: 30px;
+  height:3rem;
+}
+
+.title {
+  margin-left: 14px;
+  color: #fff;
+}
+
+.project {
+  margin-right: 37px;
+  color:#fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  width:30%;
+  margin-left:40px;
+  margin-top:10px;
+}
+
+
+
+.newMeme-btn {
+  margin-top: 0.9rem;
+  border-radius: 5px;
+  height: 40px;
+  width:565px;
+      background: rgb(57,91,237);
+background: linear-gradient(90deg, rgba(57,91,237,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color:#fff;
+cursor: pointer;
+
+
+}
+
+
+.meme-img {
+position: relative;
+max-width:100%;
+  
+}
+
+
+.form {
+  display:flex;
+  justify-content: center;
+  
+}
+
+
+
+.meme-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  gap: 2rem;
+}
+
+.top-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  top: 450px;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
